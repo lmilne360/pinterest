@@ -9,7 +9,7 @@ import 'rxjs/add/operator/catch';
 export class PinService {
   constructor(private http: Http) { }
 
-  getPins(): Observable<any> {
+  getPins(): Observable<any[]> {
     return this.http.get('../../assets/pins_formatted.json')
       .map((response: Response) => response.json())
       .catch( (err: any) => {

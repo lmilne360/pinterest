@@ -1,0 +1,16 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+.grid-container {
+  margin: 0 12px;
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(236px, 1fr));
+  grid-auto-rows: minmax(auto, auto);
+  grid-gap: 10px;
+  justify-content: center;
+
+}

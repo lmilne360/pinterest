@@ -1,1 +1,5 @@
-{{ pin }}
+<div class="grid-container">
+    <div *ngFor="let pin of pins">
+        <app-pin [pin] = "pin"></app-pin>
+    </div>
+</div>
