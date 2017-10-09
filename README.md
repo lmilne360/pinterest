@@ -1,6 +1,11 @@
 # Pinterest
 
+This project was created to display a basic infinite scrolling capability.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.4.
+
+## Installing dependencies
+ In the root directory, run `npm install` to install all projects dependencies prior to starting the server
 
 ## Development server
 
@@ -16,9 +21,12 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 ## Running unit tests
 
+This unit has no written tests. If needed you may add tests per component by creating a `spec.ts` file for each component
+
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
 ## Running end-to-end tests
+End-To-End tests can by written in the `e2e-spec` file found in the `e2e` directory
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 

@@ -1,0 +1,13 @@
+** {margin: 0;}
+.pin-wrapper {
+  display: inline-block;
+  height: auto;
+  width: auto;
+  box-sizing: border-box;
+
+  .pin-title {
+    text-align: center;
+    color: #555;
+    font-size: 17px;
+  }
+}

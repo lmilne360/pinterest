@@ -1,5 +1,7 @@
+
 <div class="grid-container">
     <div *ngFor="let pin of pins">
         <app-pin [pin] = "pin"></app-pin>
     </div>
 </div>
+<app-scroller (someEvent) = "loadPins($event)" ></app-scroller> 

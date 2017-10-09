@@ -5,11 +5,13 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { PinComponent } from './pin/pin.component';
+import { ScrollerComponent } from './scroller/scroller.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PinComponent
+    PinComponent,
+    ScrollerComponent
   ],
   imports: [
     BrowserModule,
