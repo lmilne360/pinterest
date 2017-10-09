@@ -5,7 +5,7 @@ import { Component, OnInit, Output, EventEmitter } from '@angular/core';
   template: ` <div *ngIf="reached">Loading more pins...</div>`
 })
 export class ScrollerComponent implements OnInit {
-  @Output() someEvent = new EventEmitter<string>();
+  @Output() bottomReached = new EventEmitter<string>();
   reached: boolean;
 
   constructor() {
@@ -20,7 +20,7 @@ export class ScrollerComponent implements OnInit {
       if (windowBottom >= docHeight) {
         status = 'bottom reached';
         this.reached = true;
-        this.someEvent.emit(status);
+        this.bottomReached.emit(status);
       } else {this.reached = false; }
       console.log(status);
     };
