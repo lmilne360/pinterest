@@ -2,6 +2,12 @@
 
 This project was created to display a basic infinite scrolling capability.
 
+It uses a custom scroller component to track user's scroll position on the page.
+
+Upon reaching the end of the page, it emits an event alerting the parent component.
+
+The method binded to the event will then execute, in the case of this app, the `loadPins()` method
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.4.
 
 ## Installing dependencies
